@@ -10,7 +10,7 @@ namespace personal_finance_tracker_c_sharp_
 {
     internal class db
     {
-        private string conn = "Server=localhost;Database=finance;User ID=neba;Password=1995777828";
+        private string conn = "Server=localhost;Database=finance;User ID=yourusername;Password=yourpassword";
 
         public bool login(string nameOrEmail, string password)
         {
